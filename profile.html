@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/all.min.css" />
+        <link rel="stylesheet" href="./css/framework.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <title>Profile</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link rel="shortcut icon" href="/images/site-logo.png" type="image/x-icon" />
+    </head>
+    <body>
+        <div class="page d-flex">
+            <div class="sidebar bg-white p-20 p-relative">
+                <h3 class="mt-0 p-relative txt-c">Elzero</h3>
+                <ul>
+                    <li>
+                        <a href="dashboard.html" class="d-flex align-center p-10 rad-6 fs-14 c-black">
+                            <i class="fa-solid fa-chart-bar fa-fw"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="settings.html" class="d-flex align-center p-10 rad-6 fs-14 c-black">
+                            <i class="fa-solid fa-gear fa-fw"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="profile.html" class="active d-flex align-center p-10 rad-6 fs-14 c-black">
+                            <i class="fa-solid fa-user fa-fw"></i>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="projects.html" class="d-flex align-center p-10 rad-6 fs-14 c-black">
+                            <i class="fa-solid fa-diagram-project fa-fw"></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="courses.html" class="d-flex align-center p-10 rad-6 fs-14 c-black">
+                            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                            <span>Courses</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="friends.html" class="d-flex align-center p-10 rad-6 fs-14 c-black">
+                            <i class="fa-solid fa-user-group fa-fw"></i>
+                            <span>Friends</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="files.html" class="d-flex align-center p-10 rad-6 fs-14 c-black">
+                            <i class="fa-solid fa-file fa-fw"></i>
+                            <span>Files</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="plans.html" class="d-flex align-center p-10 rad-6 fs-14 c-black">
+                            <i class="fa-solid fa-calendar-days fa-fw"></i>
+                            <span>Plans</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content w-full">
+                <!-- Start Head -->
+                <div class="head bg-white p-15 flex-between">
+                    <div class="search p-relative">
+                        <input class="p-10 rad-10 bd-1-c" type="search" placeholder="Type a keyword" name="search" id="search" />
+                    </div>
+                    <div class="icons d-flex align-center">
+                        <span class="notification p-relative">
+                            <i class="fa-regular fa-bell fa-lg"></i>
+                        </span>
+                        <img src="./images/avatar.png" alt="avatar-img" />
+                    </div>
+                </div>
+                <!-- End Head -->
+                <h1 class="p-relative">Profile</h1>
+                <div class="profile-page m-20">
+                    <div class="overview d-flex w-full bg-white rad-10">
+                        <div class="avatar-box d-flex align-center">
+                            <img src="./images/avatar.png" alt="avatar-img" class="d-block rad-half" />
+                            <h3 class="mt-15 mb-15">Osama Elzero</h3>
+                            <span class="d-block mb-15 c-grey">Level 20</span>
+                            <div class="progress d-block p-relative bg-eee">
+                                <span class="bg-blue" style="width: 75%"></span>
+                            </div>
+                            <div class="rating mt-15 mb-15 fs-14 c-orange">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="rating-count c-grey fs-13">550 Rating</span>
+                        </div>
+                        <div class="main-info w-full txt-c-mobile">
+                            <div class="info-row p-relative d-flex align-center f-wrap">
+                                <h4 class="c-grey w-full m-0 fs-15">General Information</h4>
+                                <div class="c-grey fs-14">Full name: <span class="c-black">Osama Mohamed</span></div>
+                                <div class="c-grey fs-14">Gender: <span class="c-black">Male</span></div>
+                                <div class="c-grey fs-14">Country: <span class="c-black">Egypt</span></div>
+                                <label class="d-flex">
+                                    <input class="toggle-checkbox" type="checkbox" id="info-one" checked />
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                            <div class="info-row p-relative d-flex align-center f-wrap">
+                                <h4 class="c-grey w-full m-0 fs-15">Personal Information</h4>
+                                <div class="c-grey fs-14">Email: <span class="c-black">o@nn.sa</span></div>
+                                <div class="c-grey fs-14">Phone: <span class="c-black">019123456789</span></div>
+                                <div class="c-grey fs-14">Date of birth: <span class="c-black">25/10/1982</span></div>
+                                <label class="d-flex">
+                                    <input class="toggle-checkbox" type="checkbox" id="info-two" />
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                            <div class="info-row p-relative d-flex align-center f-wrap">
+                                <h4 class="c-grey w-full m-0 fs-15">Job Information</h4>
+                                <div class="c-grey fs-14">Title: <span class="c-black">Full Stack Developer</span></div>
+                                <div class="c-grey fs-14">Programming Language: <span class="c-black">Python</span></div>
+                                <div class="c-grey fs-14">Years of experience: <span class="c-black">15+</span></div>
+                                <label class="d-flex">
+                                    <input class="toggle-checkbox" type="checkbox" id="info-three" checked />
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                            <div class="info-row p-relative d-flex align-center f-wrap">
+                                <h4 class="c-grey w-full m-0 fs-15">Billing Information</h4>
+                                <div class="c-grey fs-14">Payment method: <span class="c-black">Paypal</span></div>
+                                <div class="c-grey fs-14">Email: <span class="c-black">email@website.com</span></div>
+                                <div class="c-grey fs-14">Subscription: <span class="c-black">Monthly</span></div>
+                                <label class="d-flex">
+                                    <input class="toggle-checkbox" type="checkbox" id="info-four" />
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-data mt-20 d-flex gap-20">
+                        <div class="my-skills bg-white p-20 rad-10">
+                            <h2 class="m-0 mb-10 txt-c-mobile">My Skills</h2>
+                            <p class="c-grey m-0 mb-40 txt-c-mobile fs-15">Completed skills list</p>
+                            <ul>
+                                <li class="skills-row d-block mb-15 pb-15">
+                                    <span class="bg-eee btn-shape">HTML</span>
+                                    <span class="bg-eee btn-shape">Pugjs</span>
+                                    <span class="bg-eee btn-shape">HAML</span>
+                                </li>
+                                <li class="skills-row d-block mb-15 pb-15">
+                                    <span class="bg-eee btn-shape">CSS</span>
+                                    <span class="bg-eee btn-shape">SASS</span>
+                                    <span class="bg-eee btn-shape">Stylus</span>
+                                </li>
+                                <li class="skills-row d-block mb-15 pb-15">
+                                    <span class="bg-eee btn-shape">JavaScript</span>
+                                    <span class="bg-eee btn-shape">TypeScript</span>
+                                </li>
+                                <li class="skills-row d-block mb-15 pb-15">
+                                    <span class="bg-eee btn-shape">Vuejs</span>
+                                    <span class="bg-eee btn-shape">Reactjs</span>
+                                </li>
+                                <li class="skills-row d-block mb-15 pb-15">
+                                    <span class="bg-eee btn-shape">Jest</span>
+                                    <span class="bg-eee btn-shape">Jasmine</span>
+                                </li>
+                                <li class="skills-row d-block mb-15 pb-15">
+                                    <span class="bg-eee btn-shape">PHP</span>
+                                    <span class="bg-eee btn-shape">Laravel</span>
+                                </li>
+                                <li class="skills-row d-block">
+                                    <span class="bg-eee btn-shape">Python</span>
+                                    <span class="bg-eee btn-shape">Django</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="latest-activities bg-white p-20 rad-10">
+                            <h2 class="m-0 mb-10 txt-c-mobile">Latest Activities</h2>
+                            <p class="c-grey m-0 mb-20 txt-c-mobile fs-15">Latest activities done by the user</p>
+                            <div class="activity d-flex align-center gap-10 txt-c-mobile">
+                                <img src="./images/activity-01.png" alt="store-img" />
+                                <div class="text">
+                                    <span>Store</span>
+                                    <p class="c-grey m-0 mt-10">Bought the mastering python course</p>
+                                </div>
+                                <div class="time">
+                                    <span>18:10</span>
+                                    <span class="d-block c-grey m-0 mt-10 fs-15">Yesterday</span>
+                                </div>
+                            </div>
+                            <div class="activity d-flex align-center gap-10 txt-c-mobile">
+                                <img src="./images/activity-02.png" alt="store-img" />
+                                <div class="text">
+                                    <span>Academy</span>
+                                    <p class="c-grey m-0 mt-10">Got the PHP certificate</p>
+                                </div>
+                                <div class="time">
+                                    <span>16:05</span>
+                                    <span class="d-block c-grey m-0 mt-10 fs-15">Yesterday</span>
+                                </div>
+                            </div>
+                            <div class="activity d-flex align-center gap-10 txt-c-mobile">
+                                <img src="./images/activity-03.png" alt="store-img" />
+                                <div class="text">
+                                    <span>Badges</span>
+                                    <p class="c-grey m-0 mt-10">Unlocked the 10 skills badge</p>
+                                </div>
+                                <div class="time">
+                                    <span>18:05</span>
+                                    <span class="d-block c-grey m-0 mt-10 fs-15">Yesterday</span>
+                                </div>
+                            </div>
+                            <div class="activity d-flex align-center gap-10 txt-c-mobile">
+                                <img src="./images/activity-01.png" alt="store-img" />
+                                <div class="text">
+                                    <span>Store</span>
+                                    <p class="c-grey m-0 mt-10">Bought the Typescript course</p>
+                                </div>
+                                <div class="time">
+                                    <span>12:05</span>
+                                    <span class="d-block c-grey m-0 mt-10 fs-15">Yesterday</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
